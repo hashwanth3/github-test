@@ -1,0 +1,8 @@
+requests
+robotframework
+robotframework-seleniumlibrary
+robotframework-requests
+robotframework-datadriver
+pip
+webdriver_manager
+
