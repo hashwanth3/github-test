@@ -7,6 +7,11 @@ ${invalid_token}    ghp_wXxjSpfoasg7jgFljAYj1QEomxhzmv
 ${Invalid_Repo_Name}    random-123
 ${issue_title_prefix}    issue-title
 ${issue_body_prefix}    issue-body
+${test_repo_name}         test-data
+${test_branch_name}        test-branch
+${TARGET_BRANCH}     main
+${PR_TITLE}          New Feature PR
+${PR_BODY}           This PR introduces new features.
 
 #endpoints
 ${Repo_Endpoint}    /user/repos
@@ -14,6 +19,7 @@ ${Get_Repo_Endpoint}    ${BASE_URL}/repos/${USER}/
 ${Del_repo_Endpoint}    ${BASE_URL}/repos/${USER}/
 ${issues_endpoint}      /issues
 ${List_Endpoint}    ${BASE_URL}/repos/${USER}/
+${pr_endpoint}    ${BASE_URL}/repos/${USER}/${test_repo_name}/pulls
 #status_codesx
 ${success_code}    200
 ${deleted_code}    204
